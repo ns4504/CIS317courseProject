@@ -1,0 +1,60 @@
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.AssemblyReference.cache
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.GeneratedMSBuildEditorConfig.editorconfig
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfoInputs.cache
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfo.cs
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.CoreCompileInputs.cache
+C:\CIS317-Source\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.exe
+C:\CIS317-Source\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.deps.json
+C:\CIS317-Source\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.runtimeconfig.json
+C:\CIS317-Source\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\refint\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.genruntimeconfig.cache
+C:\CIS317-Source\nathan_scott_course_project_p3\obj\Debug\net6.0\ref\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.exe
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.deps.json
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.runtimeconfig.json
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\bin\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.AssemblyReference.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfoInputs.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfo.cs
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.CoreCompileInputs.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\refint\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\nathan_scott_course_project_p3.genruntimeconfig.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\nathan_scott_course_project_p3\obj\Debug\net6.0\ref\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\bin\Debug\net6.0\nathan_scott_course_project_p3.exe
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\bin\Debug\net6.0\nathan_scott_course_project_p3.deps.json
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\bin\Debug\net6.0\nathan_scott_course_project_p3.runtimeconfig.json
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\bin\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\bin\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.AssemblyReference.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfoInputs.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfo.cs
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.CoreCompileInputs.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\refint\nathan_scott_course_project_p3.dll
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\nathan_scott_course_project_p3.genruntimeconfig.cache
+C:\Users\natha\OneDrive - ECPI University\Classes-Current\CIS317\Week 3\CIS317_course_project\obj\Debug\net6.0\ref\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project1\bin\Debug\net6.0\nathan_scott_course_project_p3.exe
+C:\CIS317-Source\nathan_scott_course_project1\bin\Debug\net6.0\nathan_scott_course_project_p3.deps.json
+C:\CIS317-Source\nathan_scott_course_project1\bin\Debug\net6.0\nathan_scott_course_project_p3.runtimeconfig.json
+C:\CIS317-Source\nathan_scott_course_project1\bin\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project1\bin\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.AssemblyReference.cache
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.GeneratedMSBuildEditorConfig.editorconfig
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfoInputs.cache
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.AssemblyInfo.cs
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.csproj.CoreCompileInputs.cache
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\refint\nathan_scott_course_project_p3.dll
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.pdb
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\nathan_scott_course_project_p3.genruntimeconfig.cache
+C:\CIS317-Source\nathan_scott_course_project1\obj\Debug\net6.0\ref\nathan_scott_course_project_p3.dll
