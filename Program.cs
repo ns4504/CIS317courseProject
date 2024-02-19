@@ -1,10 +1,7 @@
-﻿/*******************************************************************
-* Name: Nathan Scott
-* Date: 02.11.2024
-* Assignment: CIS317 Project Class Implementation
-*
-* Main application class.
-*/
+﻿using System;
+using System.Data.SQLite;
+using System.Collections.Generic;
+
 public class ArtProject
 {
     public static void Main(string[] args)
@@ -12,15 +9,55 @@ public class ArtProject
         // Set the console output encoding to UTF-8
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        // Label Header
+        const string dbName = "nathanSymbols.db";
         Console.WriteLine("Nathan Scott - Course Project");
-        Console.WriteLine("As of now, there are only 10 options (0-9) to choose from, in the future there will be more once I connect a database.");
-        Console.WriteLine("You can also use letters and numbers found on the keyboard by default! \n.");
+        SQLiteConnection conn = SQLiteDatabase.Connect(dbName);
+
+        if (conn != null)
+        {
+            SymbolDb.CreateTable(conn);
+
+            // Add every symbol
+            SymbolDb.AddSymbol(conn, new Symbol("■"));
+            SymbolDb.AddSymbol(conn, new Symbol("□"));
+            SymbolDb.AddSymbol(conn, new Symbol("┌"));
+            SymbolDb.AddSymbol(conn, new Symbol("┘"));
+            SymbolDb.AddSymbol(conn, new Symbol("└"));
+            SymbolDb.AddSymbol(conn, new Symbol("┐"));
+            SymbolDb.AddSymbol(conn, new Symbol("│"));
+            SymbolDb.AddSymbol(conn, new Symbol("─"));
+            SymbolDb.AddSymbol(conn, new Symbol("┼"));
+            SymbolDb.AddSymbol(conn, new Symbol("┴"));
+            SymbolDb.AddSymbol(conn, new Symbol("├"));
+            SymbolDb.AddSymbol(conn, new Symbol("╣"));
+            SymbolDb.AddSymbol(conn, new Symbol("║"));
+            SymbolDb.AddSymbol(conn, new Symbol("╗"));
+            SymbolDb.AddSymbol(conn, new Symbol("╝"));
+            SymbolDb.AddSymbol(conn, new Symbol("╚"));
+            SymbolDb.AddSymbol(conn, new Symbol("╔"));
+            SymbolDb.AddSymbol(conn, new Symbol("╩"));
+            SymbolDb.AddSymbol(conn, new Symbol("╦"));
+            SymbolDb.AddSymbol(conn, new Symbol("╠"));
+            SymbolDb.AddSymbol(conn, new Symbol("═"));
+            SymbolDb.AddSymbol(conn, new Symbol("╬"));
+
+            // Print symbols only if they have both ID and Symbol labels
+            Console.WriteLine("All Symbols in the Database:");
+            var symbols = SymbolDb.GetAllSymbols(conn);
+            foreach (var symbol in symbols)
+            {
+                if (!string.IsNullOrEmpty(symbol.Ascii))
+                {
+                    Console.WriteLine($"ID: {symbol.ID}, Symbol: {symbol.Ascii}");
+                }
+            }
+        }
 
         // create a grid to hold the rows
         var grid = new Grid();
 
         // create & add default rows
+        Console.WriteLine("\n\n\n");
         var row1 = new Row("■", "■", "■", "■", "■");
         grid.Rows.Add(row1);
         var row2 = new Row("■", "■", "■", "■", "■");
@@ -33,27 +70,6 @@ public class ArtProject
         grid.Rows.Add(row5);
 
         bool continueEditing = true;
-        
-        // this shows every option to the user
-        Dictionary<int, string> symbols = new Dictionary<int, string>
-        {
-            { 0, "■" },
-            { 1, "□" },
-            { 2, "█" },
-            { 3, "┌" },
-            { 4, "┐" },
-            { 5, "└" },
-            { 6, "┘" },
-            { 7, "│" },
-            { 8, "─" },
-            { 9, "┼ \n" }
-        };
-        Console.WriteLine("Possible Symbols:");
-        foreach (var sym in symbols)
-        {
-            Console.WriteLine($"{sym.Key}: {sym.Value}");
-        }
-
 
         while (continueEditing)
         {
@@ -69,8 +85,7 @@ public class ArtProject
                 break;
             }
 
-            int rowNum;
-            if (!int.TryParse(rowInput, out rowNum) || rowNum < 1 || rowNum > 5)
+            if (!int.TryParse(rowInput, out int rowNum) || rowNum < 1 || rowNum > 5)
             {
                 Console.WriteLine("Invalid input. Please enter a valid row number between 1 and 5.");
                 continue;
@@ -80,58 +95,32 @@ public class ArtProject
             Console.WriteLine("Enter column number (1-5): ");
             string? colInput = Console.ReadLine();
 
-            int colNum;
-            if (!int.TryParse(colInput, out colNum) || colNum < 1 || colNum > 5)
+            if (!int.TryParse(colInput, out int colNum) || colNum < 1 || colNum > 5)
             {
                 Console.WriteLine("Invalid input. Please enter a valid column number between 1 and 5.");
                 continue;
             }
 
             // Ask user for what symbol they want
-            Console.WriteLine("Enter the number for the symbol(or direct letter/symbol) you want to use: ");
+            Console.WriteLine("Enter the number for the symbol (or direct letter/symbol) you want to use: ");
             string? newValue = Console.ReadLine();
 
-            // Check if the input is numeric
-            if (int.TryParse(newValue, out int numericValue))
+        // Check if the input is numeric
+        if (int.TryParse(newValue, out int numericValue))
+        {
+            // Ensure conn is not null before calling MapNumberToAscii
+            if (conn != null)
             {
                 // Map certain numbers to ASCII symbols
-                switch (numericValue)
-                {
-                    case 0:
-                        newValue = "■";
-                        break;
-                    case 1:
-                        newValue = "□"; 
-                        break;
-                    case 2:
-                        newValue = "█"; 
-                        break;
-                    case 3:
-                        newValue = "┌";
-                        break;
-                    case 4:
-                        newValue = "┐";
-                        break;
-                    case 5:
-                        newValue = "└";
-                        break;
-                    case 6:
-                        newValue = "┘";
-                        break;
-                    case 7:
-                        newValue = "│";
-                        break;
-                    case 8:
-                        newValue = "─";
-                        break;
-                    case 9:
-                        newValue = "┼";
-                        break;
-                    default:
-                        Console.WriteLine($"No ASCII symbol defined for number {numericValue}");
-                        break;
-                }
+                newValue = SymbolDb.MapNumberToAscii(conn, numericValue);
             }
+            else
+            {
+                // Handle the case where conn is null, perhaps by providing a default ASCII symbol
+                newValue = "Default ASCII Symbol";
+            }
+        }
+
 
             if (!string.IsNullOrEmpty(newValue))
             {
@@ -140,12 +129,20 @@ public class ArtProject
             }
             else
             {
-                // Handle the case where newValue is null or empty, perhaps by providing a default value or displaying an error message
+                Console.WriteLine($"No ASCII symbol defined for input: {newValue}");
             }
         }
 
         Console.WriteLine("Editing complete. Final grid:");
         DisplayGrid(grid);
+    }
+
+    public static void PrintSymbols(List<SymbolDb> symbols)
+    {
+        foreach (var symbol in symbols)
+        {
+            Console.WriteLine(symbol.Ascii);
+        }
     }
 
     // Method to display the grid

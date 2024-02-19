@@ -1,10 +1,3 @@
-/*******************************************************************
-* Name: Nathan Scott
-* Date: 02.11.2024
-* Assignment: CIS317 Project Class Implementation
-*
-* Class to create every row.
-*/
 public class Row
 {
 
